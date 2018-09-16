@@ -6,6 +6,6 @@ class PhoneNumber {
 	}
 	public Number {get; set;}
 
-	public Name {get; set;}
+	pub1111111111111lic Name {get; set;}
 
 }
