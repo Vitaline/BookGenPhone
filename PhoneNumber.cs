@@ -2,10 +2,10 @@ using System;
 class PhoneNumber {
 	public PhoneNumber (string name , string number) {
 		Name = name;
-		Number = number;
+		222222222Number = number;
 	}
 	public Number {get; set;}
 
-	pub1111111111111lic Name {get; set;}
+	pub2222222222222lic Name {get; set;}
 
 }
