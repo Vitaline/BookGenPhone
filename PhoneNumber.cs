@@ -6,9 +6,9 @@ class PhoneNumber
 		Name = name;
 		Number = number;
 	}
-	public Number {get; set;}
+	public string Number {get; set;}
 
 
-	public Name {get; set;}
+	public string Name {get; set;}
 
 }
