@@ -1,0 +1,10 @@
+using System;
+class PhoneList<T> where T: PhoneNumber{
+T[] phList;
+int end;
+public PhoneList(){
+phList=new T[10];
+end=0;
+}
+
+}
