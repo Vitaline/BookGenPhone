@@ -1,14 +1,10 @@
 using System;
-class PhoneNumber
+public interface PhoneNumber
 {
-	public PhoneNumber (string name , string number)
-	{
-		Name = name;
-		Number = number;
-	}
-	public string Number {get; set;}
+	
+	string Number {get; set;}
 
 
-	public string Name {get; set;}
+	string Name {get; set;}
 
 }

@@ -6,12 +6,34 @@ class PhoneList<T> where T: PhoneNumber{
         phList=new T[10];
         end=0;
     }
-    public void Add (T ob) {
-        if (end != phList.Length){
+    public bool Add (T ob) {
+        if (end == phList.Length) return false;
 
             phList[end]= ob;
             end++;
-        }
-        else Console.WriteLine("PhoneList is full");
+            return true;
+        
     }
+
+    public T FindByName (string name){
+    for (int i = 0; i<end; i++){
+        if (phList[i].Name == name)
+
+            return phList[i];
+
+    }
+            throw new NotFoundException ();    
+    }
+    public T FindByNumber (string number){
+    for (int i = 0; i<end; i++){
+        if (phList[i].Number == number)
+
+            return phList[i];
+
+    }
+            throw new NotFoundException ();    
+    }
+
+    
+
 }
